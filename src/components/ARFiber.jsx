@@ -12,7 +12,7 @@ const ARFiber = () => {
         <XR>
         <Controllers/>
         <mesh position={[0,0,-0.5]}>
-            <boxBufferGeometry args={[0.9,0.9,0.9]}/>
+            <boxBufferGeometry args={[0.3,0.3,0.3]}/>
             <meshBasicMaterial color={"#ff0000"}/>
         </mesh>
         </XR>
