@@ -1,0 +1,11 @@
+Model Information:
+* title:	Gnome Fantasy Creature
+* source:	https://sketchfab.com/3d-models/gnome-fantasy-creature-bd307e4c5f74439e879575dfdc9ab1fe
+* author:	Suvalien (https://sketchfab.com/Suvalien)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Gnome Fantasy Creature" (https://sketchfab.com/3d-models/gnome-fantasy-creature-bd307e4c5f74439e879575dfdc9ab1fe) by Suvalien (https://sketchfab.com/Suvalien) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
