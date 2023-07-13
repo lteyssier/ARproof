@@ -16,7 +16,7 @@ export function Vehicle(props) {
   const { nodes, materials } = useGLTF('/models/vehicle/scene.gltf')
   return (
     <group {...props} dispose={null}>
-      <group scale={0.01}>
+      <group scale={0.006}>
         <mesh geometry={nodes.Cube_Material_0.geometry} material={materials.Material} rotation={[-Math.PI / 2, 0, 0]} scale={100} />
         <mesh geometry={nodes.Cube001_Material001_0.geometry} material={materials['Material.001']} rotation={[-Math.PI / 2, 0, 0]} scale={100} />
         <mesh geometry={nodes.Cube002_Material002_0.geometry} material={materials['Material.002']} rotation={[-Math.PI / 2, 0, 0]} scale={100} />

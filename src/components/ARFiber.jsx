@@ -23,7 +23,8 @@ const ARFiber = () => {
         shadow-mapSize={1024}
       />
       <pointLight intensity={10} />
-        <Vehicle position={[0,0,-0.5]}/>
+      
+        <Vehicle  position={[0,-0.5,-2]}/>
         </XR>
     </Canvas>
     </div>
