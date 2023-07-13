@@ -1,5 +1,8 @@
-import {Controllers, ARButton, XR, XRButton} from "@react-three/xr"
+/* eslint-disable react/no-unknown-property */
+import {Controllers, ARButton, XR} from "@react-three/xr"
 import { Canvas } from "@react-three/fiber"
+import {Vehicle} from "./vehicle"
+
 
 const ARFiber = () => {
   return (
@@ -11,10 +14,16 @@ const ARFiber = () => {
     <Canvas vr="true">
         <XR>
         <Controllers/>
-        <mesh position={[0,0,-0.5]}>
-            <boxBufferGeometry args={[0.3,0.3,0.3]}/>
-            <meshBasicMaterial color={"#ff0000"}/>
-        </mesh>
+        <spotLight
+        position={[-80, 90, 60]}
+        angle={0.20}
+        penumbra={1}
+        intensity={5}
+        castShadow
+        shadow-mapSize={1024}
+      />
+      <pointLight intensity={10} />
+        <Vehicle position={[0,0,-0.5]}/>
         </XR>
     </Canvas>
     </div>
